@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="day">오늘은 금요일</h1>
+    <script>
+      // 태그 요소를 가져와서 안에있는 content를 바꾸는 작업
+
+      // 1. innerText --> 태그의 content에 접근하는 속성
+      let day = document.getElementById("day");
+
+      console.log(day.innerText);
+
+      // day.innerText = "토요일이 좋아";
+
+      // 2. innerHTML --> 태그 전체의 접근이 가능한 속성
+      // day.innerHTML = "<a href='#'>토요일이 좋아</a>";
+    </script>
+  </body>
+</html>
